@@ -10,5 +10,3 @@ catch(PDOException $e) {
     echo 'Probleme mit der Datenbankverbindung...';
     die();
 }
-
-var_dump($pdo);
